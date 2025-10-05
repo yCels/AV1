@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* --- Configurações Essenciais do Projeto --- */
+    "target": "es2022",
+    "module": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* --- Organização de Pastas (Sua Necessidade Principal) --- */
+    "outDir": "./dist",
+    "rootDir": "./src"
+
+    // A linha "sourceMap": true foi removida para não gerar os arquivos .map.
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
